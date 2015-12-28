@@ -58,5 +58,5 @@ COMMAND
 end
 
 service 'mysql' do
-  action [:enable, :start]
+  action [:enable, :start, :restart]
 end
